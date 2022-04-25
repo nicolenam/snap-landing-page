@@ -25,6 +25,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-color:  rgb(253, 239, 167);
+	text-align: center;
+
 }
 ol, ul {
 	list-style: none;
@@ -40,4 +43,85 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+.container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-margin{
+	margin: 1rem;
+}
+
+
+.heroImage {
+	width: 100%;
+	height: auto;
+}
+
+h1 {
+	font-family: 'Epilogue', sans-serif;
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+p{
+	font-family: 'Epilogue', sans-serif;
+	color:  hsl(0, 0%, 41%);
+	line-height: 1.5;
+	margin: 1rem 0;
+}
+
+a{
+	text-decoration: none;
+	color:  hsl(0, 0%, 41%);
+	font-family: 'Epilogue', sans-serif;
+	line-height: 3;
+
+}
+
+.text-margin {
+	margin:1rem;
+}
+
+.callBtn {
+	padding: 1rem 1.5rem;
+	background-color: black;
+	color: rgb(253, 239, 167);
+	border-radius: .5rem;
+	font-family: 'Epilogue', sans-serif; 
+	cursor: pointer;
+	border: 1px solid transparent;
+}
+
+.callBtn:hover{
+	background-color:rgb(253, 239, 167); 
+	border: 1px solid black;
+	color: black;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	gap: 10px;
+	margin: 2rem 0;
+}
+
+.footerImg{
+	height: 1rem;
+}
+
+#myLinks{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	background-color: red;
+	margin-left: 7rem;
+	padding: 1rem;
+	position: absolute;
+	top: 0;
+	height: 100vh;
+	width: 100vw;
 }
